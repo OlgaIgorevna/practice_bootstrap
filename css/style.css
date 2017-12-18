@@ -1,0 +1,103 @@
+.heading {
+
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading .article {
+    margin-top: 40px;
+    max-width: 330px;  
+  }
+  .heading .article .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+.heading .article .text {
+    font-size: 15px;
+  }
+
+.menu .nav-item {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-link.active {
+  background: #5dbbc1;
+  border-radius: 5px;
+}
+
+.no-padding {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.logo img {
+  max-width: 155px;
+}
+
+.heading .article .title {
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.heading .article .title .highlight {
+  color: #5dbbc1;
+}
+
+.heading .menu {
+  display: none;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: white;
+  margin: 3px 0;
+}
+
+.hamburger button {
+  background-color: transparent;
+  border: none;
+}
+
+
+@media(min-width: 768px) {
+  .hamburger {
+    display: none!important;
+  }
+  .heading .menu {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+
+  .heading .article {
+    margin-top: 140px;
+    max-width: 510px;
+  }
+  .heading .article .title {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .heading .article .text {
+    font-size: 20px;
+  }
+
+}
