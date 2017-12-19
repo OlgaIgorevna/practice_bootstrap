@@ -108,10 +108,12 @@ header .request button {
 .form-check-input {
   margin-top: 7px;
 }
-.services{
+
+.services {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .services .title {
   margin: 0 auto 30px;
   font-size: 40px;
@@ -135,15 +137,39 @@ header .request button {
 }
 
 .services .item figcaption {
-  /*  display: block;*/
   max-width: 170px;
   margin: 30 auto 0;
   text-align: center;
   font-size: 20px;
 }
 
+.story {
+  background: #5dbbc1;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.story .text {
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.story button {
+  background: #130e27;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  width: 150px;
+}
+
 @media(min-width: 544px) {
-  header .main-part .article .text{
+  header .main-part .article .text {
     font-size: 17px;
   }
   .services .title {
@@ -151,6 +177,11 @@ header .request button {
   }
   .services .item:first-child {
     margin-top: 20px;
+  }
+  .story .text {
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: left;
   }
 }
 
@@ -182,6 +213,7 @@ header .request button {
 }
 
 @media (min-width: 992px) {
+  .nav-link{font-size: 20px;}
   .main-part {
     padding-bottom: 120px;
   }
@@ -224,6 +256,14 @@ header .request button {
     padding: 10px 5px;
     width: 100%;
     margin-top: 15px;
+  }
+
+  .story .text {
+    font-size: 20px;
+  }
+  .story button {
+    font-size: 20px;
+    width: 300px;
   }
 }
 
