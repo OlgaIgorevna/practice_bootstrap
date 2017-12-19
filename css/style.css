@@ -50,7 +50,7 @@
   line-height: 0.9;
 }
 
-.title .highlight {
+.highlight {
   color: #5dbbc1;
 }
 
@@ -236,6 +236,7 @@ header .request button {
   text-transform: uppercase;
   font-size: 45px;
   text-align: center;
+  font-weight: 700;
 }
 
 .review .item {
@@ -294,9 +295,10 @@ header .request button {
 .gallery .title {
   text-transform: uppercase;
   font-size: 45px;
+  font-weight: 700;
   color: #93ced3;
   margin: 0 auto;
-  width:200px;
+  width: 200px;
 }
 
 .gallery .item {
@@ -306,15 +308,18 @@ header .request button {
   margin-bottom: 40px;
   box-shadow: 0 -5px 16px #b8ac93;
 }
-.gallery .item img{
+
+.gallery .item img {
   width: 100px;
-  height:100px;
+  height: 100px;
 }
+
 .gallery .row.picture .wrap .item {
   margin-left: auto;
-  margin-right: auto;      
+  margin-right: auto;
 }
-.gallery button.more{
+
+.gallery button.more {
   display: block;
   text-transform: uppercase;
   width: 210px;
@@ -325,6 +330,21 @@ header .request button {
   border-bottom: 1px solid #8b8a90;
   background-color: transparent;
 }
+
+.footer {
+  padding: 30px 0;
+  background: #130e27;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer .logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
 
 @media(min-width: 576px) {
   header .main-part .article .text {
@@ -393,7 +413,17 @@ header .request button {
   header .request button {
     width: 200px;
   }
+  .footer .logo {
+    text-align: right;
+  }
+  .footer {
+    text-align: left;
+  }
 
+  
+.footer .logo {
+  margin-top: 0;
+}
 }
 
 @media (min-width: 992px) {
@@ -465,6 +495,9 @@ header .request button {
   }
   .price .item button {
     width: 200px;
+  }
+  .review .item {
+    margin-left: 0;
   }
 
 }
