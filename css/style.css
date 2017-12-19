@@ -168,7 +168,66 @@ header .request button {
   width: 150px;
 }
 
-@media(min-width: 544px) {
+.price {
+  background: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.price .title {
+  font-size: 40px;
+  margin: 0 auto 30px;
+  text-transform: uppercase;
+  width: 155px;
+  font-weight: 700;
+}
+
+.price .item {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 320px;
+}
+
+.price .item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.price .item .cost {
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.price .item .text {
+  font-size: 20px;
+}
+
+.price .item button {
+  background-color: #5dbbc1;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+.price .item button.active {
+  background-color: #130e27;
+  color: white;
+}
+
+@media(min-width: 576px) {
   header .main-part .article .text {
     font-size: 17px;
   }
@@ -213,7 +272,9 @@ header .request button {
 }
 
 @media (min-width: 992px) {
-  .nav-link{font-size: 20px;}
+  .nav-link {
+    font-size: 20px;
+  }
   .main-part {
     padding-bottom: 120px;
   }
@@ -258,6 +319,12 @@ header .request button {
     margin-top: 15px;
   }
 
+  .services .title {
+    font-size: 50px;
+    width: 400px;
+    font-weight: 600;
+  }
+
   .story .text {
     font-size: 20px;
   }
@@ -265,6 +332,16 @@ header .request button {
     font-size: 20px;
     width: 300px;
   }
+  .price .item {
+    margin-right: 20px;
+  }
+  .price .item:last-child {
+    margin-right: 0;
+  }
+  .price .item button {
+    width: 200px;
+  }
+
 }
 
 @media (min-width: 1200px) {
